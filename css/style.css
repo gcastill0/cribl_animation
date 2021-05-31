@@ -4,7 +4,8 @@
             --src2-bg: #0d5c75;
             --src3-bg: #0d5c75;
             --dest-bg: #0d5c75;
-            --cribl-bg: #0D5C75;
+            --cribl-master-bg: #0D5C75;
+            --cribl-worker-bg: #0D5C75;
             --push-flow-lb:  #FFFFFF;
             --push-flow-lb-opacity: 0; 
             --push-flow:  #FFFFFF; 
@@ -44,9 +45,14 @@
             fill: var(--dest-bg);
         }
 
-        #master, #workers {
-            fill: var(--cribl-bg);
+        #workers {
+            fill: var(--cribl-worker-bg);
         }
+
+        #master {
+            fill: var(--cribl-master-bg);
+        }
+
 
         #Cribl_Architecture {
             animation: fadeInUp 1s;
