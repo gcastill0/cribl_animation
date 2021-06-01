@@ -5,7 +5,9 @@
             --src3-bg: #0d5c75;
             --dest-bg: #0d5c75;
             --cribl-master-bg: #0D5C75;
+            --cribl-leader-functions-bg: #FFFFFF;
             --cribl-worker-bg: #0D5C75;
+            --cribl-routes-gb: #FFFFFF;
             --push-flow-lb:  #FFFFFF;
             --push-flow-lb-opacity: 0; 
             --push-flow:  #FFFFFF; 
@@ -51,6 +53,14 @@
 
         #master {
             fill: var(--cribl-master-bg);
+        }
+
+        #routes {
+            fill: var(--cribl-routes-bg);
+        }
+
+        #leader_functions {
+            fill: var(--cribl-leader-functions-bg);
         }
 
 
@@ -102,6 +112,25 @@
             to {
                 opacity: 1;
                 transform: translateY(0);
-
             }
         }
+
+        #main_content {
+            top: 1%;
+            left: 1%;
+            width: 98%;
+            min-height: 98%;
+            height: auto;
+            background-color: #FFFFFF;
+            position: relative;
+          }
+          
+          #container {
+            width: 1600px;
+            height: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #FFFFFF;
+            position: relative;
+        }
+                 

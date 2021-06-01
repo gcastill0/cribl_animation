@@ -58,12 +58,14 @@ window.onload = function () {
   workers.onmouseover = (e) => {
     document.documentElement.style.cssText = `
           --cribl-worker-bg: #199FB1;
+          --cribl-routes-bg: #199FB1;
         `
   }
 
   workers.onmouseout = (e) => {
     document.documentElement.style.cssText = `
           --cribl-worker-bg: #0d5c75;
+          --cribl-routes-bg: #FFFFFF;
         `
   }
 
@@ -72,12 +74,14 @@ window.onload = function () {
   master.onmouseover = (e) => {
     document.documentElement.style.cssText = `
           --cribl-master-bg: #199FB1;
+          --cribl-leader-functions-bg: #199FB1;
         `
   }
 
   master.onmouseout = (e) => {
     document.documentElement.style.cssText = `
           --cribl-master-bg: #0d5c75;
+          --cribl-leader-functions-bg: #FFFFFF;
         `
   }
 
